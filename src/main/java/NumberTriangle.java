@@ -134,7 +134,6 @@ public class NumberTriangle {
             String[] parts = line.trim().split("\\s+");
             curr = new NumberTriangle[parts.length];
             for (int i = 0; i < parts.length; i++) {
-
                 curr[i] = new NumberTriangle(Integer.parseInt(parts[i]));
                 if (prev == null) {
                     top = curr[0];
