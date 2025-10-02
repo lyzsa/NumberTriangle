@@ -135,15 +135,7 @@ public class NumberTriangle {
             curr = new NumberTriangle[parts.length];
             for (int i = 0; i < parts.length; i++) {
 
-                curr[i] = new NumberTriangle(Integer.parseInt(parts[i]));
-                if (prev == null) {
-                    top = curr[0];
-                }else{
-                    for (int j = 0; j < prev.length; j++) {
-                        prev[j].setLeft(curr[j]);
-                        prev[j].setRight(curr[j+1]);
-                    }
-                }
+
 
             }
             //read the next line
