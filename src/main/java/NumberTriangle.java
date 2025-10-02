@@ -146,8 +146,10 @@ public class NumberTriangle {
 
             }
             //read the next line
-            line = br.readLine();
             prev = curr;
+            line = br.readLine();
+
+
         }
         br.close();
         return top;
